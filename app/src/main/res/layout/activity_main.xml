@@ -12,19 +12,20 @@
         android:id="@+id/bt_write"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="@string/bt_str_write" />
+        android:text="@string/bt_txt_write" />
 
     <Button
         android:id="@+id/bt_read"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="@string/bt_str_read" />
+        android:text="@string/bt_txt_read" />
 
     <TextView
         android:id="@+id/tv_file_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_str_file_content" />
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_txt_file_content" />
 
 
 </LinearLayout>
